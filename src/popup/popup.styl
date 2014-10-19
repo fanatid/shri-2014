@@ -1,0 +1,43 @@
+dialog
+  border: 1px solid rgba(0, 0, 0, 0.3)
+  border-radius: 6px
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3)
+  text-align: center
+
+dialog::backdrop
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  background-color: rgba(0, 0, 0, 0.8)
+
+.modal
+  display: none
+  overflow: hidden
+  position: fixed
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  z-index: 1000
+
+.modal-backdrop
+  position: fixed
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  background-color: #000
+  opacity: 0.5
+
+.modal-content
+  position: relative
+  width: 600px
+  margin: 30px auto
+  padding: 15px
+  background-color: #fff
+  border: 1px solid rgba(0,0,0,.2)
+  border-radius: 6px
+  background-clip: padding-box
+  text-align: center

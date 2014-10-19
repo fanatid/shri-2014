@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title popup
+    link(href='/bower_components/dialog-polyfill/dialog-polyfill.css', rel='stylesheet')
+    link(href='popup.css', rel='stylesheet')
+  body
+    a(href='../') back
+    br
+
+    a(href='#', id='popup-html5') html5 dialog
+    dialog
+      p html5 dialog as popup
+      button Close
+    br
+
+    a(href='#', id='popup-z-index') z-index dialog
+    #modal.modal
+      .modal-backdrop
+      .modal-content
+        p another popup
+        button Close
+
+    script(type='text/javascript', src='/bower_components/dialog-polyfill/dialog-polyfill.js')
+    script(type='text/javascript', src='/bower_components/jquery/dist/jquery.min.js')
+    script(type='text/javascript', src='popup.js')

@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    title Equalizr
+    link(href='equalizer.css', rel='stylesheet')
+  body
+    a(href='../') back
+    br
+
+    h1 Equalizers
+
+    #eq_1.equalizer-wrapper
+      h2 First
+      .equalizer.small
+
+    #eq_2.equalizer-wrapper
+      h2 Second
+      .equalizer.normal
+
+    #eq_3.equalizer-wrapper
+      h2 Third
+      .equalizer.big
+
+    script(type='text/javascript', src='/bower_components/jquery/dist/jquery.min.js')
+    script(type='text/javascript', src='equalizer.js')

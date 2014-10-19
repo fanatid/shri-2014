@@ -1,0 +1,10 @@
+{
+  "name": "shri-2014",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "d3": "~3.4.13",
+    "dialog-polyfill": "~0.2.0"
+  }
+}
