@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>popup</title>
+    <link href="/bower_components/dialog-polyfill/dialog-polyfill.css" rel="stylesheet">
+    <link href="popup.css" rel="stylesheet">
+  </head>
+  <body><a href="../">back</a><br><a href="#" id="popup-html5">html5 dialog</a>
+    <dialog>
+      <p>html5 dialog as popup</p>
+      <button>Close</button>
+    </dialog><br><a href="#" id="popup-z-index">z-index dialog</a>
+    <div id="modal" class="modal">
+      <div class="modal-backdrop"></div>
+      <div class="modal-content">
+        <p>another popup</p>
+        <button>Close</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="/bower_components/dialog-polyfill/dialog-polyfill.js"></script>
+    <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+  </body>
+</html>
